@@ -14,5 +14,9 @@
   - git config --local user.name 'your name'
   - git config --local user.email 'your email'
 ## Branching
-  - A git branch is a branched off version of our code
+  - A git branch is a branched off version of our code.
+  - You should not be working on the master branch. Instead, work on branches.
+  - This protects the master branch from untested code.
+  - When your code is ready, it can be merged back into master.
+  - git checkout -b 'branch-name'
 ## Remotes
